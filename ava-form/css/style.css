@@ -1,3 +1,11 @@
+
+.ava-logo{
+  /* width: 50%; */
+  object-fit: contain;
+  height: 50px;
+}
+
+
 /* @extend display-flex; */
 display-flex, .signup-content, .form-row, .form-radio, .select-icon, .select-icon i {
   display: flex;
