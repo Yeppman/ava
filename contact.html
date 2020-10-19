@@ -175,6 +175,7 @@
               class="row contact_form"
               action="contact_process.php"
               method="post"
+              onSubmit='contactForm()'
               id="contactForm"
               novalidate="novalidate"
             >
@@ -355,6 +356,18 @@
     <!--================End Contact Success and Error message Area =================-->
 
     <!-- Optional JavaScript -->
+
+    <script>
+        function contactForm(e){
+            e.preventDefault()
+            const Name = e.target.element.Name.value
+            const Email = e.target.element.Email.value
+            const Subject = e.target.element.Subject.value
+
+            console.table(Name, Email ,Subject)
+        }
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
