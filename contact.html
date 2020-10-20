@@ -31,7 +31,10 @@
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <a class="navbar-brand logo_h" href="index.html"
-              ><img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png" class="ava-logo" alt=""
+              ><img
+                src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png"
+                class="ava-logo"
+                alt=""
             /></a>
             <button
               class="navbar-toggler"
@@ -52,61 +55,27 @@
               id="navbarSupportedContent"
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">FEATURES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">VIDEO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">PRICING</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">SCREENS</a>
-                </li>
-                <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Pages</a
+                  <a class="nav-link" href="/ball-hive/ballhive.html"
+                    >Product</a
                   >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="elements.html">Elements</a>
-                    </li>
-                  </ul>
                 </li>
-                <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Blog</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="single-blog.html"
-                        >Blog Details</a
-                      >
-                    </li>
-                  </ul>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="team-page.html">Team</a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#feature">About</a>
+                </li>
+
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a  href="/ava-form/player-form.html" class="ava-nav-btn">Get Scouted</a>
+                </li>
+
               </ul>
             </div>
           </div>
@@ -175,7 +144,7 @@
               class="row contact_form"
               action="contact_process.php"
               method="post"
-              onSubmit='contactForm()'
+              onSubmit="contactForm()"
               id="contactForm"
               novalidate="novalidate"
             >
@@ -358,14 +327,14 @@
     <!-- Optional JavaScript -->
 
     <script>
-        function contactForm(e){
-            e.preventDefault()
-            const Name = e.target.element.Name.value
-            const Email = e.target.element.Email.value
-            const Subject = e.target.element.Subject.value
+      function contactForm(e) {
+        e.preventDefault();
+        const Name = e.target.element.Name.value;
+        const Email = e.target.element.Email.value;
+        const Subject = e.target.element.Subject.value;
 
-            console.table(Name, Email ,Subject)
-        }
+        console.table(Name, Email, Subject);
+      }
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
