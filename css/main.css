@@ -95,8 +95,8 @@
 
 .p-text{
   color: black;
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  /* font-weight: 300; */
 }
 
 .color-icon-mark{
@@ -134,4 +134,14 @@
   border-radius: 5px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
+}
+
+.p-value-text{
+  color: black;
+  font: 1rem;
+}
+
+.ava-head-paragraph{
+  color: black !important;
+  font: 1rem !important;
 }
