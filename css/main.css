@@ -137,11 +137,17 @@
 }
 
 .p-value-text{
-  color: black;
-  font: 1rem;
+  color: black !important;
+  font: 1rem !important;
 }
 
 .ava-head-paragraph{
   color: black !important;
   font: 1rem !important;
+}
+
+@media (max-width:569px){
+  .single-footer-widget .sub-btn{
+    position: relative;
+  }
 }
