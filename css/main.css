@@ -1,9 +1,11 @@
 .ava-header{
     padding-top: 10rem;
+    background-color: #f9faff;
+;
 }
 
 .ava-header-b{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     background: #f9faff;
     padding-top: 1rem;
 }
