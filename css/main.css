@@ -138,12 +138,12 @@
 
 .p-value-text{
   color: black !important;
-  font: 1rem !important;
+  font-size: 1.3rem !important;
 }
 
 .ava-head-paragraph{
   color: black !important;
-  font: 1rem !important;
+  font-size: 1rem !important;
 }
 
 @media (max-width:569px){
