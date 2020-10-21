@@ -47,8 +47,6 @@
   opacity: .6;
 }
 
-
-
 .ava-logo{
     /* width: 50%; */
     object-fit: contain;
@@ -143,7 +141,7 @@
 
 .ava-head-paragraph{
   color: black !important;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 
 @media (max-width:569px){
