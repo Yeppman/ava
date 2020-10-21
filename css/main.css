@@ -1,5 +1,5 @@
 .ava-header{
-    margin-top: 10rem;
+    padding-top: 10rem;
 }
 
 .ava-header-b{
@@ -89,4 +89,17 @@
 
 .bio-text{
   color: black;
+}
+
+.p-text{
+  color: black;
+  font-size: 1rem;
+}
+
+.color-icon-mark{
+  color: green;
+}
+
+.new-bg-color{
+  background-color: #f9faff !important;
 }
