@@ -92,9 +92,9 @@
 }
 
 .p-text{
-  color: black;
-  font-size: 1.2rem;
-  /* font-weight: 300; */
+  color: rgb(41, 40, 40);
+  font-size: 1.0rem;
+  font-weight: 500;
 }
 
 .color-icon-mark{
@@ -135,8 +135,9 @@
 }
 
 .p-value-text{
-  color: black !important;
-  font-size: 1.3rem !important;
+  color: rgb(43, 42, 42) !important;
+  font-size: 1.0rem !important;
+  font-weight: 500;
 }
 
 .ava-head-paragraph{

@@ -7137,6 +7137,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .p-5 {
   padding: 3rem !important;
+  font-weight: 500;
+  color: rgb(56, 54, 54);
+  text-align: left;
+  line-height:1.6rem;
 }
 
 .pt-5,
@@ -8207,6 +8211,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .text-center {
   text-align: center !important;
+  font-weight: 800;
 }
 
 @media (min-width: 576px) {
