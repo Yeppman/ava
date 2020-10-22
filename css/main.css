@@ -145,6 +145,14 @@
   font-size: 1.2rem !important;
 }
 
+.bg-footer{
+  background-color: #55acee !important;
+}
+
+.bg-footer-b{
+  background-color: #2867B2 !important;
+}
+
 
 @media (max-width:1140px){
   .single-footer-widget .sub-btn{
@@ -157,3 +165,5 @@
     position: relative;
   }
 }
+
+
