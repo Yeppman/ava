@@ -16,45 +16,40 @@
 
     <div class="main">
         <div class="container">
-            <div class="signup-content">
-                <div class="signup-img">
+            <div class="signup-content row">
+                <!-- <div class="signup-img col-3">
                     <img src="https://images.pexels.com/photos/1003869/pexels-photo-1003869.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
-                </div>
-                <div class="signup-form">
+                </div> -->
+                <div class="signup-form col-12">
                     <form method="POST" class="register-form" id="register-form">
                         <h2>player signup form</h2>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="name">Name :</label>
-                                <input type="text" name="name" id="name" required/>
+                                <label for="name">FIrst Name :</label>
+                                <input type="text" name="lastname" id="last_name" required/>
                             </div>
                             <div class="form-group">
-                                <label for="father_name">Father Name :</label>
-                                <input type="text" name="father_name" id="father_name" required/>
+                                <label for="father_name">Last Name :</label>
+                                <input type="text" name="last_name" id="last_name" required/>
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email :</label>
+                            <input type="text" name="email" id="email" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Pone :</label>
+                            <input type="text" name="phone" id="phone" required/>
                         </div>
                         <div class="form-group">
                             <label for="address">Address :</label>
                             <input type="text" name="address" id="address" required/>
                         </div>
-                        <div class="form-radio">
-                            <label for="gender" class="radio-label">Position :</label>
-                            <div class="form-radio-item">
-                                <input type="radio" name="gender" id="male" checked>
-                                <label for="male">Forward</label>
-                                <span class="check"></span>
-                            </div>
-                            <div class="form-radio-item">
-                                <input type="radio" name="gender" id="female">
-                                <label for="female">Middle</label>
-                                <span class="check"></span>
-                            </div>
-                            <div class="form-radio-item">
-                                <input type="radio" name="gender" id="female">
-                                <label for="female">Backward</label>
-                                <span class="check"></span>
-                            </div>
+                        <div class="form-group">
+                            <label for="address">Nationality :</label>
+                            <input type="text" name="address" id="address" required/>
                         </div>
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="state">State :</label>
@@ -79,10 +74,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email ID :</label>
-                            <input type="email" name="email" id="email" />
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Gender :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" checked>
+                                <label for="male">Male</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <span class="check"></span>
+                            </div>
                         </div>
+
+                        <div class="form-group">
+                            <label for="address">Age :</label>
+                            <input type="text" name="address" id="address" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Position :</label>
+                            <input type="text" name="address" id="address" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Video Upload :</label>
+                            <input type="file" width="50" name="address" id="address" required/>
+                        </div>
+
                         <div class="form-submit">
                             <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
                             <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
