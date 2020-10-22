@@ -187,10 +187,14 @@
   font-family: "Open Sans", sans-serif;
   line-height: 50px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
-  box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
+  -webkit-box-shadow:0px 5px 5px 0px rgba(115, 73, 251, 0.12);
+  /* box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3); */
+  box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
 }
 
+.team-page-bg{
+  background-color: #f9faff !important;
+}
 
 
 @media (max-width:1140px){

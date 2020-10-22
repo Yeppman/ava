@@ -76,6 +76,7 @@
     padding: 1.5rem 2rem;
     background-color: #ffffff;
     border-radius: 10px;
+    border: 1px solid green;
     box-shadow: var(--shadow);
   }
   
