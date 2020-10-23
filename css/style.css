@@ -66,6 +66,62 @@ a:hover, a:focus {
   margin: 0px;
 }
 
+.ava-header{
+  padding-top: 10rem;
+  background-color: #f9faff;
+;
+}
+
+.ava-header-b{
+  /* margin-top: 5rem; */
+  background: #f9faff;
+  padding-top: 1rem;
+}
+
+.ava-header-title {
+  text-align: center;
+  /* margin-bottom: 75px; */
+}
+
+
+.ava-head-title h2 {
+font-family: "Open Sans", sans-serif;
+font-size: 3rem;
+color: #222222;
+font-weight: 800;
+margin-bottom: 15px;
+font-family: "Boing", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
+Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+"Segoe UI Symbol";
+}
+
+.ava-head-title p {
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+line-height: 24px;
+color: #777777;
+margin-bottom: 0px;
+max-width: 570px;
+font-weight: normal;
+margin: auto;
+}
+
+.ava-head-title.white h2 {
+color: #fff;
+}
+
+.ava-head-title.white p {
+color: #fff;
+opacity: .6;
+}
+
+.ava-logo{
+  /* width: 50%; */
+  object-fit: contain;
+  height: 50px;
+}
+
+
 body {
   line-height: 24px;
   font-size: 14px;
@@ -3555,9 +3611,8 @@ background-color: #049444;
 /* Download App Area css
 ============================================================================================ */
 .download_app_area {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -webkit-linear-gradient(0deg, #009245 0%, #009245 100%);
+
 }
 
 .app_inner {
