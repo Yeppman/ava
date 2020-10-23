@@ -196,6 +196,15 @@
   background-color: #f9faff !important;
 }
 
+.about-heading{
+  font-size: 600;
+  color: black !important;
+}
+
+.about-text{
+  font-size: 1rem;
+  color: black !important;
+}
 
 @media (max-width:1140px){
   .single-footer-widget .sub-btn{
