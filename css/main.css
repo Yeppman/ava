@@ -1,7 +1,6 @@
 .ava-header{
-    padding-top: 10rem;
-    background-color: #f9faff;
-;
+    /* padding-top: 10rem; */
+    /* background-color: #f9faff; */
 }
 
 .ava-header-b{
@@ -15,6 +14,12 @@
     /* margin-bottom: 75px; */
   }
 
+  .ava-heading-text{
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
   
 .ava-head-title h2 {
   font-family: "Open Sans", sans-serif;
@@ -102,7 +107,7 @@
 }
 
 .new-bg-color{
-  background-color: #f9faff !important;
+  /* background-color: #f9faff !important; */
 }
 
 .ava-header-buttons{
@@ -205,6 +210,8 @@
   font-size: 1rem;
   color: black !important;
 }
+
+
 
 @media (max-width:1140px){
   .single-footer-widget .sub-btn{
