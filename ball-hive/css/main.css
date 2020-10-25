@@ -78,3 +78,20 @@
     box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   }
   
+
+  
+.bg-footer{
+  background-color: #55acee !important;
+}
+
+.bg-footer-fb{
+  background-color: #4267B2 !important;
+}
+
+.bg-footer-in{
+  background-color:#E1306C !important;
+}
+
+.bg-footer-b{
+  background-color: #2867B2 !important;
+}

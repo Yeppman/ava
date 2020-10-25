@@ -4113,7 +4113,7 @@ h6 {
   padding: 0px 38px;
   display: inline-block;
   cursor: pointer;
-  position: absolute;
+  /* position: absolute; */
   top: 0px;
   right: -26px;
   border-radius: 20px;
