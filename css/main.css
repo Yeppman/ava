@@ -198,6 +198,33 @@
   box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
 }
 
+.bio_btn:hover{
+  padding: 0px 45px;
+  /* background-image: -webkit-gradient(linear, left top, right top, from(#bc2bff), color-stop(51%, #7249fb), to(#bc2bff));
+  background-image: -webkit-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
+  background-image: -o-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
+  background-image: linear-gradient(to right, #bc2bff 0%, #7249fb 51%, #bc2bff 100%); */
+  background-size: 200% auto;
+  background-color: #049444; 
+  border: 1px solid #049444;
+  color: #ffffff !important;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  line-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow:0px 5px 5px 0px rgba(115, 73, 251, 0.12);
+  /* box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3); */
+  box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
+}
+
 .team-page-bg{
   background-color: #f9faff !important;
 }
@@ -205,6 +232,7 @@
 .about-heading{
   font-size: 600;
   color: black !important;
+  text-align: center;
 }
 
 .about-text{

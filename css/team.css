@@ -74,14 +74,20 @@
     margin-top: 1rem;
     text-align: center;
     padding: 1.5rem 2rem;
-    background-color: #ffffff;
+    background-color: #eeeeee;
     border-radius: 10px;
-    border: 1px solid green;
+    border: 1px solid #eeeeee;
     box-shadow: var(--shadow);
+  }
+
+  .team-box-text {
+    color: #000;
+    font-weight: 420;
   }
   
   .team-box-text-b {
-    color: rgb(21, 245, 96);
+    color: gray;
+    font-weight: 400;
   }
   
   .team-header-content{
@@ -90,7 +96,7 @@
   
   .team-header-heading {
     font-size: 2rem;
-    color: rgb(16, 172, 24);
+    color: #009245;
     text-align: center;
   }
   
@@ -98,24 +104,25 @@
     text-align: center;
     line-height: 2.0rem;
     margin-top: 7px;
+    font-weight: 401;
   }
   
   .team-box-header {
-    color: rgb(16, 172, 24);
+    color: gray;
     padding: 7px;
   }
-  
+
   .team-box-button{
       background: none;
       border: 2px solid rgb(16, 172, 24);
       padding: 1rem;
-      color:  rgb(16, 172, 24);
+      color: #009245;
       border-radius: 14px;
       margin-top: 1rem;
   }
   
   .team-box-button:hover {
-    color: yellow;
+    color: blue;
   }
   
   .team-box .startUpTeam-image-box .startUpTeam-image {
