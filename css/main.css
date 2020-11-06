@@ -254,4 +254,8 @@
   }
 }
 
-
+@media (max-width:991px){
+  .ava-logo{
+    margin: 10px;
+  }
+}
