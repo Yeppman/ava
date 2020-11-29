@@ -435,7 +435,7 @@ button:focus {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  max-width: 450px;
+  /* max-width: 450px; */
   margin-bottom: 40px;
   font-size: 14px;
 }

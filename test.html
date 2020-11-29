@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS hover effects: Fade In Background opacity</title>
+</head>
+<body>
+    
+    <style>
+        .wrapper{
+font-family:sans-serif;
+width: 80%;
+margin: 0 auto;
+position:relative;
+}
+img{
+opacity: 1;
+display: block;
+width:100%;
+height: auto;
+transition: .5s ease;
+}
+.content{
+position: absolute;
+top:45%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-transform: uppercase;
+font-size: 60px;
+color:#fff;
+white-space: nowrap;
+overflow: hidden
+}
+.content a{
+font-size: 24px;
+display: block;
+background-color: #ff771d;
+text-align: center;
+padding: 10px;
+cursor: pointer
+}
+.overlay{
+opacity: 0
+}
+.wrapper:hover img{
+opacity: .5
+}
+.wrapper:hover .overlay{
+opacity: 1
+}
+    </style>
+
+<div class="wrapper">
+<img src="highland.jpeg">
+<div class="overlay">
+<div class="content">
+the title <a>read more</a>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -102,6 +102,10 @@
   font-weight: 400;
 }
 
+.int-text{
+  margin-bottom: 20px !important;
+}
+
 .color-icon-mark{
   color: green;
 }
