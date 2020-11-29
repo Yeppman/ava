@@ -563,7 +563,8 @@ button:focus {
 /* Home latest Blog Area css
 ============================================================================================ */
 .l_news_item {
-  background: #f9f9ff;
+  background: #fff;
+  
   padding: 60px 30px;
   border-radius: 5px;
   -webkit-transition: all 300ms linear 0s;
