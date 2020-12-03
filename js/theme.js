@@ -15,7 +15,7 @@
                 if (scroll >= nav_offset_top ) {
                     $(".header_area").addClass("navbar_fixed");
                 } else {
-                    $(".header_area").removeClass("navbar_fixed");
+                    $(".header_area").addClass("navbar_fixed");
                 }
             });
         };

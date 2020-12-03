@@ -1,48 +1,82 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Sports Avalanche
-@URL: http://sportsavalanche.com
-Author E-mail: info@sportsavalanche.com
 
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Sports Avalanche
-@Author: Sports Avalanche
-@Developed By: Sports Avalanche
-@Developer URL: http://sportsavalanche.com
-Author E-mail: info@sportsavalanche.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,300i,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.com-header-text{
+  font-weight: 900;
+  font-family: 'Russo One', sans-serif;
+  font-size: 5rem;
+  /* color: green; */
+}
 
+.com-header-text-col{
+  color: green;
+}
+
+.com-header-text-a{
+  color: rgb(38, 0, 128) !important;
+}
+
+.pb_120{
+  padding-bottom: 120px
+}
+
+.pt_120{
+  padding-top: 220px;
+}
+
+.mid-text{
+  padding-top: 10rem;
+  font-size: 4rem;
+  font-family: 'Russo One', sans-serif;
+}
+
+.mid-section{
+  /* background-color: rgb(250, 249, 255); */
+  color: black;
+}
+
+.mid-boxes{
+  background: #fff
+}
+
+.mid-header-text{
+  color: rgb(38, 0, 128) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+.com-text{
+  font-size: 1rem !important;
+  font-weight: 600;
+  /* font-family: 'Ubuntu Condensed', sans-serif !important; */
+  font-family: 'Oswald', sans-serif;
+  color: rgb(80, 73, 73);
+}
+
+.banner-bottom{
+  border-bottom: 1px solid rgb(75, 75, 90, 0.2);
+}
+
+.bg-img{
+  background-image: url('/bgimg.png') !important;
+  /* background: no-repeat scroll center center; */
+  object-fit: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  /* height: 100%; */
+}
+
+.bg-img-b{
+  /* background: no-repeat scroll center center; */
+  object-fit: contain;
+  width: 100%;
+  height: inherit;
+}
 
 .list {
   list-style: none;
@@ -389,18 +423,18 @@ button:focus {
   z-index: 1;
   /* background: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat scroll center center; */
   /* background-size: cover; */
-  background: -webkit-linear-gradient(
-      45deg,
+  /* background: -webkit-linear-gradient( */
+      /* 45deg, */
       /* rgba(171, 203, 211, 0.7),
       rgba(186, 168, 199, 0.7) */
-      rgba(66, 211, 85, 0.2),
-      rgba(66, 211, 85, 0.2)
+      /* rgba(66, 211, 85, 0.2),
+      rgba(66, 211, 85, 0.2) */
       /* 152, 66, 211 */
-    ),
-    url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+    /* ), */
+    /* url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
       50% no-repeat;
         background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover */
 }
 
 .home_banner_area .banner_inner {
