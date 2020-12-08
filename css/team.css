@@ -74,9 +74,9 @@
     margin-top: 1rem;
     text-align: center;
     padding: 1.5rem 2rem;
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
     border-radius: 10px;
-    border: 1px solid #eeeeee;
+    /* border: 1px solid #eeeeee; */
     box-shadow: var(--shadow);
   }
 

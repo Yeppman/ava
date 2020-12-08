@@ -231,8 +231,8 @@
 }
 
 .team-page-bg{
-  background-color: #f9faff !important;
-  /* background-image: url('/bgimg.png') ; */
+  /* background-color: #f9faff !important; */
+  background-image: url('/bgimg.png') ;
   object-fit: contain;
   width: 100%;
 }
