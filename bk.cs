@@ -523,6 +523,7 @@ button:focus {
 .banner_area .banner_inner .banner_content h2 {
   color: #fff;
   font-size: 48px;
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
   margin-bottom: 0px;
   font-weight: 500;
