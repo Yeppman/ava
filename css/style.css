@@ -101,6 +101,9 @@
     font-size: 3rem;
   }
 
+  .navbar-nav{
+    padding: 1rem !important;
+  }
 
   .k-p-120{
     padding-top: 120px;
