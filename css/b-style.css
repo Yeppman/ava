@@ -28,9 +28,9 @@
 }
 
 .mid-text{
-  padding-top: 10rem;
-  font-size: 4rem;
-  font-family: 'Russo One', sans-serif;
+  padding-top: 10rem !important;
+  font-size: 4rem !important;
+  font-family: 'Russo One', sans-serif !important;
 }
 
 .mid-section{
@@ -79,21 +79,31 @@
 }
 
 @media (max-width:769px){
+
   .com-header-text{
     font-size: 3rem;
     text-align: center !important;
   }
 
   .bg-img{
-    display: none;
+    display: none !important;
   }
 
   .pt_120{
-    padding-top: 10px;
+    padding-top: 10px !important;
   }
 
   .mid-text{
-    padding-top: 0px;
+    padding-top: 0px !important;
+    font-size: 3rem !important;
+  }
+
+  .navbar-nav{
+    padding: 1rem !important;
+  }
+
+  .k-p-120{
+    padding-top: 120px;
   }
 
 }
@@ -3402,9 +3412,10 @@ h6 {
   transition: all 400ms linear;
   text-align: center;
   color: #fff;
-  font-size: 13px;
+  border: none;
+  font-size: 1rem;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   line-height: 50px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
