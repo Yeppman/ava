@@ -86,6 +86,11 @@
   height: inherit;
 }
 
+.header-button-flex{display: flex;}
+.header-button-flex-media{
+  justify-content: flex-start;
+}
+
 @media (max-width:769px){
   .com-header-text{
     font-size: 3rem;
@@ -112,6 +117,10 @@
   .k-p-120{
     padding-top: 120px;
   }
+
+  .header-button-flex-media{
+  justify-content: center;
+}
 
 }
 

@@ -78,6 +78,10 @@
   height: inherit;
 }
 
+.header-button-flex{display: flex;}
+.header-button-flex-media{
+  justify-content: flex-start;
+}
 @media (max-width:769px){
 
   .com-header-text{
@@ -106,6 +110,10 @@
     padding-top: 120px;
   }
 
+  .header-button-flex-media{
+    justify-content: center;
+  }
+  
 }
 
 .list {
