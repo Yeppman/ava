@@ -24,7 +24,7 @@
 }
 
 .com-header-text-a{
-  color: rgb(38, 0, 128) !important;
+  /* color: rgb(38, 0, 128) !important; */
 }
 
 .pb_120{
@@ -115,7 +115,7 @@
   }
 
   .k-p-120{
-    padding-top: 120px;
+    padding-top: 0px;
   }
 
   .header-button-flex-media{
@@ -232,7 +232,7 @@ button:focus {
   color: #777777;
   max-width: 570px;
   font-weight: 500;
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 20px;
 }
 
@@ -486,7 +486,7 @@ button:focus {
 .home_banner_area .banner_inner {
   overflow: hidden;
   width: 100%;
-  padding: 170px 0px 140px 0px;
+  padding: 90px 0px 140px 0px;
 }
 
 .home_banner_area .banner_inner .banner_content {

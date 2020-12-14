@@ -238,7 +238,7 @@ button:focus {
   margin-bottom: 0px;
   max-width: 570px;
   font-weight: 700;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .main_title.white h2 {
