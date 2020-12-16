@@ -123,6 +123,11 @@
     padding-top: 0px;
   }
 
+  .testimony{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
   .header-button-flex-media{
   justify-content: center;
 }

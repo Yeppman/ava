@@ -39,6 +39,18 @@
     box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3); */
   }
 
+
+  .hive-header-text{
+    color: green;
+    font-size: 5rem; 
+  }
+
+  .hive-header-text-b{
+    color: rgb(38, 0, 128) !important;
+    font-size: 5rem;
+    
+  }
+
   .header-extra-texts{
     font-size: 1.1rem;
     font-weight: 500;
