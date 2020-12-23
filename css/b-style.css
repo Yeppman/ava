@@ -66,16 +66,16 @@
   object-fit: contain;
   width: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; 
   background-position: center; 
-  /* height: 100%; */
+  /*height: 100%; */
 }
 
 .bg-img-b{
-  /* background: no-repeat scroll center center; */
+  background: no-repeat scroll center center; 
   object-fit: contain;
   width: 100%;
-  height: inherit;
+  height: 100%;
 }
 
 .header-button-flex{display: flex;}
