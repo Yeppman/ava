@@ -37,225 +37,460 @@
       rel="stylesheet"
     />
     <!-- Material Design Bootstrap -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet"> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="container d-flex justify-content-center">
-      <!-- Default form register -->
-      <form
-        class="text-center border border-light p-5 border shadow mt-5 mb-5"
-        action="#!"
+    <style>
+      .nav-tabs {
+        position: relative;
+        z-index: 1;
+        padding: 0.7rem;
+        margin-right: 1rem;
+        margin-bottom: -20px;
+        margin-left: 1rem;
+        background-color: #2bbbad;
+        border: 0;
+        border-radius: 0.25rem;
+      }
+
+      .nav-link {
+        color: white !important;
+      }
+
+      .nav-tabs .nav-item.show .nav-link,
+      .nav-tabs .nav-link.active {
+        border: none;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 0.25rem;
+      }
+    </style>
+
+    <div class="container mt-5 b-5">
+      <ul
+        class="nav nav-tabs md-tabs d-flex justify-content-center"
+        id="myTabEx"
+        role="tablist"
       >
-        <p class="h4 mb-4 form-header-text">Player Sign Up Form</p>
-
-        <div class="form-row mb-4">
-          <div class="col">
-            <!-- First name -->
-            <input
-              type="text"
-              id="defaultRegisterFormFirstName"
-              class="form-control"
-              placeholder="First name"
-            />
-          </div>
-          <div class="col">
-            <!-- Last name -->
-            <input
-              type="text"
-              id="defaultRegisterFormLastName"
-              class="form-control"
-              placeholder="Last name"
-            />
-          </div>
-        </div>
-
-        <!-- E-mail -->
-        <input
-          type="email"
-          id="defaultRegisterFormEmail"
-          class="form-control mb-4"
-          placeholder="E-mail"
-        />
-
-        <!-- Password -->
-        <!-- <input
-          type="password"
-          id="defaultRegisterFormPassword"
-          class="form-control"
-          placeholder="Password"
-          aria-describedby="defaultRegisterFormPasswordHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPasswordHelpBlock"
-          class="form-text text-muted mb-4"
+        <li class="nav-item">
+          <a
+            class="nav-link active show"
+            id="home-tab-ex"
+            data-toggle="tab"
+            href="#home-ex"
+            role="tab"
+            aria-controls="home-ex"
+            aria-selected="true"
+            >Player Sign-Up Form</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="profile-tab-ex"
+            data-toggle="tab"
+            href="#profile-ex"
+            role="tab"
+            aria-controls="profile-ex"
+            aria-selected="false"
+            >Scout Sign-Up Form</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content pt-5" id="myTabContentEx">
+        <div
+          class="tab-pane fade active show"
+          id="home-ex"
+          role="tabpanel"
+          aria-labelledby="home-tab-ex"
         >
-          At least 8 characters and 1 digit
-        </small> -->
-
-        <!-- Phone number -->
-        <input
-          type="text"
-          id="defaultRegisterPhonePassword"
-          class="form-control"
-          placeholder="Phone number"
-          aria-describedby="defaultRegisterFormPhoneHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPhoneHelpBlock"
-          class="form-text text-muted mb-4"
-        >
-          <!-- Optional - for two step authentication -->
-        </small>
-
-        <input
-          type="text"
-          id="defaultRegisterPhonePassword"
-          class="form-control"
-          placeholder="Address"
-          aria-describedby="defaultRegisterFormPhoneHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPhoneHelpBlock"
-          class="form-text text-muted mb-4"
-        >
-          
-        </small>
-
-        
-
-        <input
-          type="text"
-          id="defaultRegisterPhonePassword"
-          class="form-control"
-          placeholder="Nationality"
-          aria-describedby="defaultRegisterFormPhoneHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPhoneHelpBlock"
-          class="form-text text-muted mb-4"
-        >
-          <!-- Optional - for two step authentication -->
-        </small>
-
-        <div class="form-row mb-4">
-          <div class="col">
-            <!-- First name -->
-            <input
-              type="text"
-              id="defaultRegisterFormFirstName"
-              class="form-control"
-              placeholder="State"
-            />
-          </div>
-          <div class="col">
-            <!-- Last name -->
-            <input
-              type="text"
-              id="defaultRegisterFormLastName"
-              class="form-control"
-              placeholder="City"
-            />
-          </div>
-        </div>
-
-        
-        <input
-          type="text"
-          id="defaultRegisterPhonePassword"
-          class="form-control"
-          placeholder="Age"
-          aria-describedby="defaultRegisterFormPhoneHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPhoneHelpBlock"
-          class="form-text text-muted "
-        >
-          <!-- Optional - for two step authentication -->
-        </small>
-
-        <div class="custom-control custom-checkbox p-2">
-          <div class="form-row">
-            
-            <div class="col-4">
-              <input
-              type="checkbox"
-              class="custom-control-input"
-              id="defaultRegisterFormNewsletter"
-            />
-            <label
-              class="custom-control-label"
-              for="defaultRegisterFormNewsletter"
-              >Male</label
+          <p class="pl-3">
+            Raw denim you probably haven't heard of them jean shorts Austin.
+            Nesciunt tofu stumptown aliqua, retro
+          </p>
+          <section class="container d-flex justify-content-center">
+            <!-- Default form register -->
+            <form
+              class="text-center border border-light p-5 border shadow mt-5 mb-5"
+              action="#!"
             >
-            </div>
+              <p class="h4 mb-4 form-header-text">Player Sign Up Form</p>
 
-            <div class="col-4">
+              <div class="form-row mb-4">
+                <div class="col">
+                  <!-- First name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormFirstName"
+                    class="form-control"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col">
+                  <!-- Last name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormLastName"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+
+              <!-- E-mail -->
               <input
-              type="checkbox"
-              class="custom-control-input"
-              id="defaultRegisterFormNewsletter"
-            />
-            <label
-              class="custom-control-label"
-              for="defaultRegisterFormNewsletter"
-              >Female</label
-            >
-            </div>
-          
-          </div>
+                type="email"
+                id="defaultRegisterFormEmail"
+                class="form-control mb-4"
+                placeholder="E-mail"
+              />
+
+              <!-- Password -->
+              <!-- <input
+                  type="password"
+                  id="defaultRegisterFormPassword"
+                  class="form-control"
+                  placeholder="Password"
+                  aria-describedby="defaultRegisterFormPasswordHelpBlock"
+                />
+                <small
+                  id="defaultRegisterFormPasswordHelpBlock"
+                  class="form-text text-muted mb-4"
+                >
+                  At least 8 characters and 1 digit
+                </small> -->
+
+              <!-- Phone number -->
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Phone number"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted mb-4"
+              >
+                <!-- Optional - for two step authentication -->
+              </small>
+
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Address"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted mb-4"
+              >
+              </small>
+
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Nationality"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted mb-4"
+              >
+                <!-- Optional - for two step authentication -->
+              </small>
+
+              <div class="form-row mb-4">
+                <div class="col">
+                  <!-- First name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormFirstName"
+                    class="form-control"
+                    placeholder="State"
+                  />
+                </div>
+                <div class="col">
+                  <!-- Last name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormLastName"
+                    class="form-control"
+                    placeholder="City"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Age"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted"
+              >
+                <!-- Optional - for two step authentication -->
+              </small>
+
+              <div class="custom-control custom-checkbox p-2">
+                <div class="form-row">
+                  <div class="col-4">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="defaultRegisterFormNewsletter"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="defaultRegisterFormNewsletter"
+                      >Male</label
+                    >
+                  </div>
+
+                  <div class="col-4">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="defaultRegisterFormNewsletter"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="defaultRegisterFormNewsletter"
+                      >Female</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Playing Position"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted mb-4"
+              >
+                <!-- Optional - for two step authentication -->
+              </small>
+
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupFileAddon01"
+                    >Upload</span
+                  >
+                </div>
+                <div class="custom-file">
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="inputGroupFile01"
+                    aria-describedby="inputGroupFileAddon01"
+                  />
+                  <label class="custom-file-label" for="inputGroupFile01"
+                    >Choose file</label
+                  >
+                </div>
+              </div>
+
+              <!-- Sign up button -->
+              <button class="btn btn-success my-4 btn-block" type="submit">
+                Sign Up
+              </button>
+
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-facebook-f light-blue-text"></i
+              ></a>
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-twitter light-blue-text"></i
+              ></a>
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-linkedin-in light-blue-text"></i
+              ></a>
+
+              <hr />
+
+              <!-- Terms of service -->
+              <p>
+                By clicking <em>Sign up</em> you agree to our
+                <a href="" target="_blank">terms of service</a>
+              </p>
+            </form>
+
+            <!-- Default form register -->
+          </section>
         </div>
-        
-        <input
-          type="text"
-          id="defaultRegisterPhonePassword"
-          class="form-control"
-          placeholder="Playing Position"
-          aria-describedby="defaultRegisterFormPhoneHelpBlock"
-        />
-        <small
-          id="defaultRegisterFormPhoneHelpBlock"
-          class="form-text text-muted mb-4"
+        <div
+          class="tab-pane fade"
+          id="profile-ex"
+          role="tabpanel"
+          aria-labelledby="profile-tab-ex"
         >
-          <!-- Optional - for two step authentication -->
-        </small>
+          <p class="pl-3">
+            Raw denim you probably haven't heard of them jean shorts Austin.
+            Nesciunt tofu stumptown aliqua, retro
+          </p>
+          <section class="container d-flex justify-content-center">
+            <!-- Default form register -->
 
+            <form
+              class="text-center border border-light p-5 border shadow mt-5 mb-5"
+              action="#!"
+            >
+              <p class="h4 mb-4 form-header-text">Scout Sign Up Form</p>
 
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
-          </div>
-          <div class="custom-file">
-            <input type="file" class="custom-file-input" id="inputGroupFile01"
-              aria-describedby="inputGroupFileAddon01">
-            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-          </div>
+              <div class="form-row mb-4">
+                <div class="col">
+                  <!-- First name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormFirstName"
+                    class="form-control"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col">
+                  <!-- Last name -->
+                  <input
+                    type="text"
+                    id="defaultRegisterFormLastName"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+
+              <!-- E-mail -->
+              <input
+                type="email"
+                id="defaultRegisterFormEmail"
+                class="form-control"
+                placeholder="E-mail"
+              />
+
+              <div class="custom-control custom-checkbox pt-3 pb-3 ">
+                <div class="form-row">
+                  <div class="col-4">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="defaultRegisterFormNewsletter"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="defaultRegisterFormNewsletter"
+                      >Male</label
+                    >
+                  </div>
+
+                  <div class="col-4">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="defaultRegisterFormNewsletter"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="defaultRegisterFormNewsletter"
+                      >Female</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <input
+                type="text"
+                id="defaultRegisterPhonePassword"
+                class="form-control"
+                placeholder="Playing Position"
+                aria-describedby="defaultRegisterFormPhoneHelpBlock"
+              />
+              <small
+                id="defaultRegisterFormPhoneHelpBlock"
+                class="form-text text-muted mb-4"
+              >
+                <!-- Optional - for two step authentication -->
+              </small>
+
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupFileAddon01"
+                    >Upload</span
+                  >
+                </div>
+                <div class="custom-file">
+                  <input
+                    type="file"
+                    class="custom-file-input"
+                    id="inputGroupFile01"
+                    aria-describedby="inputGroupFileAddon01"
+                  />
+                  <label class="custom-file-label" for="inputGroupFile01"
+                    >Choose file</label
+                  >
+                </div>
+              </div>
+
+              <!-- Sign up button -->
+              <button class="btn btn-success my-4 btn-block" type="submit">
+                Sign Up
+              </button>
+
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-facebook-f light-blue-text"></i
+              ></a>
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-twitter light-blue-text"></i
+              ></a>
+              <a href="#" class="mx-2" role="button"
+                ><i class="fab fa-linkedin-in light-blue-text"></i
+              ></a>
+
+              <hr />
+
+              <!-- Terms of service -->
+              <p>
+                By clicking <em>Sign up</em> you agree to our
+                <a href="" target="_blank">terms of service</a>
+              </p>
+            </form>
+
+            <!-- Default form register -->
+          </section>
         </div>
+      </div>
+    </div>
 
-        <!-- Sign up button -->
-        <button class="btn btn-success my-4 btn-block" type="submit">
-          Sign Up
-        </button>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/theme.js"></script>
 
-        <a href="#" class="mx-2" role="button"
-          ><i class="fab fa-facebook-f light-blue-text"></i
-        ></a>
-        <a href="#" class="mx-2" role="button"
-          ><i class="fab fa-twitter light-blue-text"></i
-        ></a>
-        <a href="#" class="mx-2" role="button"
-          ><i class="fab fa-linkedin-in light-blue-text"></i
-        ></a>
-
-        <hr />
-
-        <!-- Terms of service -->
-        <p>
-          By clicking <em>Sign up</em> you agree to our
-          <a href="" target="_blank">terms of service</a>
-        </p>
-      </form>
-
-      <!-- Default form register -->
-    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
+home

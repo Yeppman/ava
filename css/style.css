@@ -89,6 +89,7 @@
   /* background: no-repeat scroll center center; */
   object-fit: contain;
   width: 100%;
+  padding-top: 10rem;
   height: inherit;
 }
 
