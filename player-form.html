@@ -67,65 +67,102 @@
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 0.25rem;
       }
-      
-      .form-bg{
+
+      .form-bg {
         /* background-image: url('https://images.unsplash.com/photo-1605160432130-eb20382fc58f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c29jY2VyJTIwYmFsbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); */
       }
 
+      .btn-tertiary {
+        color: #555;
+        padding: 0;
+        line-height: 40px;
+        width: 300px;
+        margin: auto;
+        display: block;
+        border: 2px solid #555;
+      }
+      .btn-tertiary:hover,
+      .btn-tertiary:focus {
+        color: #888;
+        border-color: #888;
+      }
+      /* input file style */
+      .input-file {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+      .input-file + .js-labelFile {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+      .input-file + .js-labelFile .icon:before {
+        content: "\f093";
+      }
+      .input-file + .js-labelFile.has-file .icon:before {
+        content: "\f00c";
+        color: #5aac7b;
+      }
     </style>
 
-      <div class="form-bg">
-        <div class="container mt-5 b-5">
-          <ul
-            class="nav nav-tabs md-tabs d-flex justify-content-center"
-            id="myTabEx"
-            role="tablist"
-          >
-            <li class="nav-item">
-              <a
-                class="nav-link active show"
-                id="home-tab-ex"
-                data-toggle="tab"
-                href="#home-ex"
-                role="tab"
-                aria-controls="home-ex"
-                aria-selected="true"
-                >Player Sign-Up Form</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                id="profile-tab-ex"
-                data-toggle="tab"
-                href="#profile-ex"
-                role="tab"
-                aria-controls="profile-ex"
-                aria-selected="false"
-                >Scout Sign-Up Form</a
-              >
-            </li>
-          </ul>
-          <div class="tab-content pt-5" id="myTabContentEx">
-            <div
-              class="tab-pane fade active show"
-              id="home-ex"
-              role="tabpanel"
-              aria-labelledby="home-tab-ex"
+    <div class="form-bg">
+      <div class="container mt-5 b-5">
+        <ul
+          class="nav nav-tabs md-tabs d-flex justify-content-center"
+          id="myTabEx"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active show"
+              id="home-tab-ex"
+              data-toggle="tab"
+              href="#home-ex"
+              role="tab"
+              aria-controls="home-ex"
+              aria-selected="true"
+              >Player Sign-Up Form</a
             >
-              <p class="pl-3">
-                Raw denim you probably haven't heard of them jean shorts Austin.
-                Nesciunt tofu stumptown aliqua, retro
-              </p>
-              <section class="container d-flex justify-content-center">
-                <!-- Default form register -->
-              
-                <form
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="profile-tab-ex"
+              data-toggle="tab"
+              href="#profile-ex"
+              role="tab"
+              aria-controls="profile-ex"
+              aria-selected="false"
+              >Scout Sign-Up Form</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content pt-5" id="myTabContentEx">
+          <div
+            class="tab-pane fade active show"
+            id="home-ex"
+            role="tabpanel"
+            aria-labelledby="home-tab-ex"
+          >
+            <p class="pl-3">
+              Raw denim you probably haven't heard of them jean shorts Austin.
+              Nesciunt tofu stumptown aliqua, retro
+            </p>
+            <section class="container d-flex justify-content-center">
+              <!-- Default form register -->
+
+              <form
                 class="text-center border border-light p-5 border shadow mt-5 mb-5"
                 action="#!"
               >
                 <p class="h4 mb-4 form-header-text">Scout Sign Up Form</p>
-  
+
                 <div class="form-row mb-4">
                   <div class="col">
                     <!-- First name -->
@@ -146,7 +183,7 @@
                     />
                   </div>
                 </div>
-  
+
                 <!-- E-mail -->
                 <input
                   type="email"
@@ -154,10 +191,10 @@
                   class="form-control"
                   placeholder="E-mail"
                 />
-  
-                <div class="custom-control custom-checkbox pt-3 pb-3 ">
+
+                <div class="custom-control custom-checkbox pt-3 pb-3">
                   <div class="form-row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-5 col-sm-5">
                       <input
                         type="checkbox"
                         class="custom-control-input"
@@ -169,8 +206,8 @@
                         >Male</label
                       >
                     </div>
-  
-                    <div class="col-4">
+
+                    <div class="col-lg-4 col-md-4 col-sm-5 col-sm-5">
                       <input
                         type="checkbox"
                         class="custom-control-input"
@@ -184,7 +221,7 @@
                     </div>
                   </div>
                 </div>
-  
+
                 <input
                   type="text"
                   id="defaultRegisterPhonePassword"
@@ -198,31 +235,21 @@
                 >
                   <!-- Optional - for two step authentication -->
                 </small>
-  
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupFileAddon01"
-                      >Upload</span
-                    >
-                  </div>
-                  <div class="custom-file">
-                    <input
-                      type="file"
-                      class="custom-file-input"
-                      id="inputGroupFile01"
-                      aria-describedby="inputGroupFileAddon01"
-                    />
-                    <label class="custom-file-label" for="inputGroupFile01"
-                      >Choose file</label
-                    >
-                  </div>
+
+                <div class="form-group">
+                  <input type="file" name="file" id="file" class="input-file">
+                  <label for="file" class="btn btn-tertiary js-labelFile">
+                    <i class="icon fa fa-check"></i>
+                    <span class="js-fileName">Choose a file</span>
+                  </label>
                 </div>
-  
+                
+
                 <!-- Sign up button -->
                 <button class="btn btn-success my-4 btn-block" type="submit">
                   Sign Up
                 </button>
-  
+
                 <a href="#" class="mx-2" role="button"
                   ><i class="fab fa-facebook-f light-blue-text"></i
                 ></a>
@@ -232,162 +259,150 @@
                 <a href="#" class="mx-2" role="button"
                   ><i class="fab fa-linkedin-in light-blue-text"></i
                 ></a>
-  
+
                 <hr />
-  
+
                 <!-- Terms of service -->
                 <p>
                   By clicking <em>Sign up</em> you agree to our
                   <a href="" target="_blank">terms of service</a>
                 </p>
               </form>
-  
 
-                <!-- Default form register -->
-              </section>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="profile-ex"
-              role="tabpanel"
-              aria-labelledby="profile-tab-ex"
-            >
-              <p class="pl-3">
-                Raw denim you probably haven't heard of them jean shorts Austin.
-                Nesciunt tofu stumptown aliqua, retro
-              </p>
-              <section class="container d-flex justify-content-center">
-                <!-- Default form register -->
-    
-                <form
-                  class="text-center border border-light p-5 border shadow mt-5 mb-5"
-                  action="#!"
+              <!-- Default form register -->
+            </section>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile-ex"
+            role="tabpanel"
+            aria-labelledby="profile-tab-ex"
+          >
+            <p class="pl-3">
+              Raw denim you probably haven't heard of them jean shorts Austin.
+              Nesciunt tofu stumptown aliqua, retro
+            </p>
+            <section class="container d-flex justify-content-center">
+              <!-- Default form register -->
+
+              <form
+                class="text-center border border-light p-5 border shadow mt-5 mb-5"
+                action="#!"
+              >
+                <p class="h4 mb-4 form-header-text">Scout Sign Up Form</p>
+
+                <div class="form-row mb-4">
+                  <div class="col">
+                    <!-- First name -->
+                    <input
+                      type="text"
+                      id="defaultRegisterFormFirstName"
+                      class="form-control"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <!-- Last name -->
+                    <input
+                      type="text"
+                      id="defaultRegisterFormLastName"
+                      class="form-control"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+
+                <!-- E-mail -->
+                <input
+                  type="email"
+                  id="defaultRegisterFormEmail"
+                  class="form-control"
+                  placeholder="E-mail"
+                />
+
+                <div class="custom-control custom-checkbox pt-3 pb-3">
+                  <div class="form-row">
+                    <div class="col-lg-4 col-md-4 col-sm-5 col-sm-5">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="defaultRegisterFormNewsletter"
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="defaultRegisterFormNewsletter"
+                        >Male</label
+                      >
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-5 col-sm-5">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="defaultRegisterFormNewsletter"
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="defaultRegisterFormNewsletter"
+                        >Female</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <input
+                  type="text"
+                  id="defaultRegisterPhonePassword"
+                  class="form-control"
+                  placeholder="Playing Position"
+                  aria-describedby="defaultRegisterFormPhoneHelpBlock"
+                />
+                <small
+                  id="defaultRegisterFormPhoneHelpBlock"
+                  class="form-text text-muted mb-4"
                 >
-                  <p class="h4 mb-4 form-header-text">Scout Sign Up Form</p>
-    
-                  <div class="form-row mb-4">
-                    <div class="col">
-                      <!-- First name -->
-                      <input
-                        type="text"
-                        id="defaultRegisterFormFirstName"
-                        class="form-control"
-                        placeholder="First name"
-                      />
-                    </div>
-                    <div class="col">
-                      <!-- Last name -->
-                      <input
-                        type="text"
-                        id="defaultRegisterFormLastName"
-                        class="form-control"
-                        placeholder="Last name"
-                      />
-                    </div>
-                  </div>
-    
-                  <!-- E-mail -->
-                  <input
-                    type="email"
-                    id="defaultRegisterFormEmail"
-                    class="form-control"
-                    placeholder="E-mail"
-                  />
-    
-                  <div class="custom-control custom-checkbox pt-3 pb-3 ">
-                    <div class="form-row">
-                      <div class="col-4">
-                        <input
-                          type="checkbox"
-                          class="custom-control-input"
-                          id="defaultRegisterFormNewsletter"
-                        />
-                        <label
-                          class="custom-control-label"
-                          for="defaultRegisterFormNewsletter"
-                          >Male</label
-                        >
-                      </div>
-    
-                      <div class="col-4">
-                        <input
-                          type="checkbox"
-                          class="custom-control-input"
-                          id="defaultRegisterFormNewsletter"
-                        />
-                        <label
-                          class="custom-control-label"
-                          for="defaultRegisterFormNewsletter"
-                          >Female</label
-                        >
-                      </div>
-                    </div>
-                  </div>
-    
-                  <input
-                    type="text"
-                    id="defaultRegisterPhonePassword"
-                    class="form-control"
-                    placeholder="Playing Position"
-                    aria-describedby="defaultRegisterFormPhoneHelpBlock"
-                  />
-                  <small
-                    id="defaultRegisterFormPhoneHelpBlock"
-                    class="form-text text-muted mb-4"
-                  >
-                    <!-- Optional - for two step authentication -->
-                  </small>
-    
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupFileAddon01"
-                        >Upload</span
-                      >
-                    </div>
-                    <div class="custom-file">
-                      <input
-                        type="file"
-                        class="custom-file-input"
-                        id="inputGroupFile01"
-                        aria-describedby="inputGroupFileAddon01"
-                      />
-                      <label class="custom-file-label" for="inputGroupFile01"
-                        >Choose file</label
-                      >
-                    </div>
-                  </div>
-    
-                  <!-- Sign up button -->
-                  <button class="btn btn-success my-4 btn-block" type="submit">
-                    Sign Up
-                  </button>
-    
-                  <a href="#" class="mx-2" role="button"
-                    ><i class="fab fa-facebook-f light-blue-text"></i
-                  ></a>
-                  <a href="#" class="mx-2" role="button"
-                    ><i class="fab fa-twitter light-blue-text"></i
-                  ></a>
-                  <a href="#" class="mx-2" role="button"
-                    ><i class="fab fa-linkedin-in light-blue-text"></i
-                  ></a>
-    
-                  <hr />
-    
-                  <!-- Terms of service -->
-                  <p>
-                    By clicking <em>Sign up</em> you agree to our
-                    <a href="" target="_blank">terms of service</a>
-                  </p>
-                </form>
-    
-                <!-- Default form register -->
-              </section>
-            </div>
+                  <!-- Optional - for two step authentication -->
+                </small>
+
+                <div class="form-group">
+                  <input type="file" name="file" id="file" class="input-file">
+                  <label for="file" class="btn btn-tertiary js-labelFile">
+                    <i class="icon fa fa-check"></i>
+                    <span class="js-fileName">Choose a file</span>
+                  </label>
+                </div>
+
+
+                <!-- Sign up button -->
+                <button class="btn btn-success my-4 btn-block" type="submit">
+                  Sign Up
+                </button>
+
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-facebook-f light-blue-text"></i
+                ></a>
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-twitter light-blue-text"></i
+                ></a>
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-linkedin-in light-blue-text"></i
+                ></a>
+
+                <hr />
+
+                <!-- Terms of service -->
+                <p>
+                  By clicking <em>Sign up</em> you agree to our
+                  <a href="" target="_blank">terms of service</a>
+                </p>
+              </form>
+
+              <!-- Default form register -->
+            </section>
           </div>
         </div>
-      </div>    
-
+      </div>
+    </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
@@ -408,6 +423,27 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      (function () {
+        "use strict";
+
+        $(".input-file").each(function () {
+          var $input = $(this),
+            $label = $input.next(".js-labelFile"),
+            labelVal = $label.html();
+
+          $input.on("change", function (element) {
+            var fileName = "";
+            if (element.target.value)
+              fileName = element.target.value.split("\\").pop();
+            fileName
+              ? $label.addClass("has-file").find(".js-fileName").html(fileName)
+              : $label.removeClass("has-file").html(labelVal);
+          });
+        });
+      })();
     </script>
   </body>
 </html>
