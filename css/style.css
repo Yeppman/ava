@@ -15,6 +15,10 @@
   color: green;
 }
 
+.vid-pad{
+  padding-top: 15rem;
+}
+
 .banner_area-b {
   position: relative;
   z-index: 1;
@@ -109,6 +113,10 @@ background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195
   justify-content: flex-start;
 }
 
+.sec-bg{
+  background-color: #f2f4f8;
+}
+
 @media (max-width:769px){
 
   .img-r-a{
@@ -157,6 +165,9 @@ background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195
     padding-bottom: 20px !important;
   }
 
+  .vid-pad{
+    padding-top: 0rem;
+  }
 
   .header-button-flex-media{
   justify-content: center;
