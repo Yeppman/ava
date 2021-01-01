@@ -27,7 +27,7 @@
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); */
   /* background:no-repeat; */
-background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80');
+background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg');
 }
 
 .com-header-text-col-b{
@@ -47,6 +47,12 @@ background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195
 .com-header-text-a{
   color: rgb(43, 4, 133) !important;
 } 
+
+.com-header-text-h{
+  color: #243893 !important;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
 
 .pb_120{
   padding-bottom: 120px
@@ -636,7 +642,8 @@ button:focus {
   /* background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); */
-  background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80');
+  background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg');
+  background-repeat: no-repeat;
 }
 
 .banner_area .banner_inner {

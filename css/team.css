@@ -84,6 +84,11 @@
     color: #000;
     font-weight: 420;
   }
+  .team-box-text-a {
+    color: #000;
+    font-weight: 420;
+    text-align: center;
+  }
   
   .team-box-text-b {
     color: gray;
@@ -137,6 +142,8 @@
 .bio-text-paragraph{
   color: black;
   font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .bio-image{
