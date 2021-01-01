@@ -254,6 +254,11 @@
   .single-footer-widget .sub-btn{
     position: relative;
   }
+
+  /* .bg-m{
+    display: none;
+  } */
+
 }
 
 @media (max-width:569px){
@@ -266,4 +271,8 @@
   .ava-logo{
     margin: 10px;
   }
+}
+
+@media (max-width:769px){
+ 
 }

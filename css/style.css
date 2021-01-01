@@ -3,6 +3,11 @@
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
+
+.navbar-light .navbar-toggler {
+  border:none
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 .com-header-text{
   font-weight: 900;
@@ -59,6 +64,11 @@ background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-
 }
 
 .pt_120{
+  padding-top: 220px;
+}
+
+
+.pk_120{
   padding-top: 220px;
 }
 
@@ -129,9 +139,14 @@ background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-
     display: none;
   }
 
+  .bg-m {
+    display: inline !important;
+  }
+
   .img-r-b{
     padding-top: 10rem;
   }
+
 
 
   .com-header-text{
@@ -142,6 +157,11 @@ background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-
   .bg-img{
     display: none;
   }
+
+  .pk_120{
+    padding-top: 110px;
+  }
+
 
   .pt_120{
     padding-top: 10px;
@@ -639,6 +659,9 @@ button:focus {
   position: relative;
   z-index: 1;
   min-height: 400px;
+  background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center;
   /* background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); */

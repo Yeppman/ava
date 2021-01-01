@@ -388,7 +388,7 @@
 
                 <div class="pt-3">
                   <input
-                    type="email"
+                    type="text"
                     id="defaultRegisterFormEmail"
                     class="form-control"
                     placeholder="Nationality"
@@ -440,106 +440,106 @@
             </section>
           </div>
           <div
-          class="tab-pane fade"
-          id="profile-ex"
-          role="tabpanel"
-          aria-labelledby="other-tab-ex"
-        >
-          <p class="text-center">
-            Raw denim you probably haven't heard of them jean shorts Austin.
-            Nesciunt tofu stumptown aliqua, retro
-          </p>
-          <section class="container d-flex justify-content-center">
-            <!-- Default form register -->
+            class="tab-pane fade"
+            id="profile-ex"
+            role="tabpanel"
+            aria-labelledby="other-tab-ex"
+          >
+            <p class="text-center">
+              Raw denim you probably haven't heard of them jean shorts Austin.
+              Nesciunt tofu stumptown aliqua, retro
+            </p>
+            <section class="container d-flex justify-content-center">
+              <!-- Default form register -->
 
-            <form
-              class="text-center border border-light p-5 border shadow mt-5 mb-5"
-              action="#!"
-            >
-              <p class="h4 mb-4 form-header-text">Other Sign Up Form</p>
+              <form
+                class="text-center border border-light p-5 border shadow mt-5 mb-5"
+                action="#!"
+              >
+                <p class="h4 mb-4 form-header-text">Other Sign Up Form</p>
 
-              <div class="form-row mb-4">
-                <div class="col">
-                  <!-- First name -->
-                  <input
-                    type="text"
-                    id="defaultRegisterFormFirstName"
-                    class="form-control"
-                    placeholder="First name"
-                  />
+                <div class="form-row mb-4">
+                  <div class="col">
+                    <!-- First name -->
+                    <input
+                      type="text"
+                      id="defaultRegisterFormFirstName"
+                      class="form-control"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <!-- Last name -->
+                    <input
+                      type="text"
+                      id="defaultRegisterFormLastName"
+                      class="form-control"
+                      placeholder="Last name"
+                    />
+                  </div>
                 </div>
-                <div class="col">
-                  <!-- Last name -->
-                  <input
-                    type="text"
-                    id="defaultRegisterFormLastName"
-                    class="form-control"
-                    placeholder="Last name"
-                  />
-                </div>
-              </div>
 
-              <!-- E-mail -->
-              <input
-                type="email"
-                id="defaultRegisterFormEmail"
-                class="form-control"
-                placeholder="E-mail"
-              />
-
-              <div class="pt-3">
+                <!-- E-mail -->
                 <input
                   type="email"
                   id="defaultRegisterFormEmail"
                   class="form-control"
-                  placeholder="Nationality"
+                  placeholder="E-mail"
                 />
-              </div>
 
-              <div class="pt-3">
-                <small
-                  id="defaultRegisterFormPhoneHelpBlock"
-                  class="form-text text-muted mb-4"
-                >
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Consequatur, autem deleniti ipsum excepturi aliquam
-                </small>
+                <div class="pt-3">
+                  <input
+                    type="text"
+                    id="defaultRegisterFormEmail"
+                    class="form-control"
+                    placeholder="Nationality"
+                  />
+                </div>
 
-                <input
-                  type="email"
-                  id="defaultRegisterFormEmail"
-                  class="form-control"
-                  placeholder="Organization"
-                />
-              </div>
+                <div class="pt-3">
+                  <small
+                    id="defaultRegisterFormPhoneHelpBlock"
+                    class="form-text text-muted mb-4"
+                  >
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Consequatur, autem deleniti ipsum excepturi aliquam
+                  </small>
 
-              <!-- Sign up button -->
-              <button class="btn btn-success my-4 btn-block" type="submit">
-                Sign Up
-              </button>
+                  <input
+                    type="email"
+                    id="defaultRegisterFormEmail"
+                    class="form-control"
+                    placeholder="Organization"
+                  />
+                </div>
 
-              <a href="#" class="mx-2" role="button"
-                ><i class="fab fa-facebook-f light-blue-text"></i
-              ></a>
-              <a href="#" class="mx-2" role="button"
-                ><i class="fab fa-twitter light-blue-text"></i
-              ></a>
-              <a href="#" class="mx-2" role="button"
-                ><i class="fab fa-linkedin-in light-blue-text"></i
-              ></a>
+                <!-- Sign up button -->
+                <button class="btn btn-success my-4 btn-block" type="submit">
+                  Sign Up
+                </button>
 
-              <hr />
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-facebook-f light-blue-text"></i
+                ></a>
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-twitter light-blue-text"></i
+                ></a>
+                <a href="#" class="mx-2" role="button"
+                  ><i class="fab fa-linkedin-in light-blue-text"></i
+                ></a>
 
-              <!-- Terms of service -->
-              <p>
-                By clicking <em>Sign up</em> you agree to our
-                <a href="" target="_blank">terms of service</a>
-              </p>
-            </form>
+                <hr />
 
-            <!-- Default form register -->
-          </section>
-        </div>
+                <!-- Terms of service -->
+                <p>
+                  By clicking <em>Sign up</em> you agree to our
+                  <a href="" target="_blank">terms of service</a>
+                </p>
+              </form>
+
+              <!-- Default form register -->
+            </section>
+          </div>
         </div>
       </div>
     </div>
@@ -661,6 +661,27 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      (function () {
+        "use strict";
+
+        $(".input-file").each(function () {
+          var $input = $(this),
+            $label = $input.next(".js-labelFile"),
+            labelVal = $label.html();
+
+          $input.on("change", function (element) {
+            var fileName = "";
+            if (element.target.value)
+              fileName = element.target.value.split("\\").pop();
+            fileName
+              ? $label.addClass("has-file").find(".js-fileName").html(fileName)
+              : $label.removeClass("has-file").html(labelVal);
+          });
+        });
+      })();
     </script>
   </body>
 </html>
