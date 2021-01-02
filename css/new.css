@@ -102,28 +102,31 @@
       padding-right: 10px;
   }
   
-
-
 .new-banner {
     z-index: 1;
     overflow: hidden;
     width: 100%;
-    padding: 5px 0px 10px 0px;
-    background-image: url(/img/player.png); 
+    padding: 10px 0px 20px 0px;
+    /* background-color: #e9f0ec; */
+    /* background-image: url(/img/player.png); 
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-color: #e9f0ec;
+    background-size: cover;  */
   }
 
+@media(max-width:769px){
+  .new-banner-a{
+    /* display: none; */
+    background-image: none !important;
+    background-color: #fff;
+
+  }
+}
+
 .new-banner-a {
-    z-index: 1;
-    overflow: hidden;
-    width: 100%;
-    padding: 5px 0px 10px 0px;
-    /* background-image: url(/img/sports-avalanche-home.png); 
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: #e9f0ec;
+  background-image: url(/img/player.png); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* background-color: #e9f0ec; */
   }
 
   .b-header-text{
