@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/footer.css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
@@ -58,9 +61,7 @@
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="/ball-hive/bhive.html"
-                    >Product</a
-                  >
+                  <a class="nav-link" href="/ball-hive/bhive.html">Product</a>
                 </li>
 
                 <li class="nav-item">
@@ -75,9 +76,8 @@
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a  href="player-form.html" class="ava-nav-btn">Get Scouted</a>
+                  <a href="player-form.html" class="ava-nav-btn">Get Scouted</a>
                 </li>
-
               </ul>
             </div>
           </div>
@@ -144,11 +144,8 @@
           <div class="col-lg-9">
             <form
               class="row contact_form"
-              action="contact_process.php"
-              method="post"
-              onSubmit="contactForm()"
+              
               id="contactForm"
-              novalidate="novalidate"
             >
               <div class="col-md-6">
                 <div class="form-group">
@@ -156,13 +153,13 @@
                     type="text"
                     class="form-control"
                     id="name"
-                    name="name"
+                    name="Name"
                     placeholder="Enter your name"
                   />
                 </div>
                 <div class="form-group">
                   <input
-                    type="email"
+                    type="Email"
                     class="form-control"
                     id="email"
                     name="email"
@@ -174,7 +171,7 @@
                     type="text"
                     class="form-control"
                     id="subject"
-                    name="subject"
+                    name="Subject"
                     placeholder="Enter Subject"
                   />
                 </div>
@@ -183,7 +180,7 @@
                 <div class="form-group">
                   <textarea
                     class="form-control"
-                    name="message"
+                    name="Message"
                     id="message"
                     rows="1"
                     placeholder="Enter Message"
@@ -191,9 +188,13 @@
                 </div>
               </div>
               <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="btn submit_btn">
+                <button
+                onclick="contactForm(event)"
+                id="form_button"
+
+                class="btn submit_btn">
                   Send Message
-                </button>
+              </button>
               </div>
             </form>
           </div>
@@ -203,8 +204,7 @@
     <!--================Contact Area =================-->
 
     <!--================ start footer Area  =================-->
-  
-   
+
     <footer id="footer">
       <div class="footer-top">
         <div class="container">
@@ -216,38 +216,44 @@
                   1 Obadiah Street <br />
                   <!-- Revenue House, 20 Sokode Crescent, Wuse Zone 5,<br /> -->
                   Lagos, Nigeria<br /><br />
-                  <strong>Phone:</strong> +2348107576567
-                  +2348107576567<br />
+                  <strong>Phone:</strong> +2348107576567 +2348107576567<br />
                   <strong>Email:</strong> info@sportsavalanche.com
-  
+
                   <br />
                 </p>
                 <div class="social-links mt-3">
                   <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
-                  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                  <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
                 </div>
               </div>
             </div>
-  
+
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Get Started</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Player? Get Scouted</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Player? Get Scouted</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
                   <a href="#">Scout? Discover Talent</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Manager? Get Started</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Manager? Get Started</a>
                 </li>
-  
               </ul>
             </div>
-  
+
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Quick Links</h4>
               <ul>
@@ -267,26 +273,30 @@
                   <i class="bx bx-chevron-right"></i>
                   <a href="#">Contact Us</a>
                 </li> -->
-  
               </ul>
             </div>
-  
+
             <div class="col-lg-4 col-md-6 footer-newsletter">
               <h4>Our Newsletter</h4>
               <p>
-                Want to be the first to know how you can benefit from our products? Subscribe to our newsletter
+                Want to be the first to know how you can benefit from our
+                products? Subscribe to our newsletter
               </p>
               <form action="" method="post">
-                <input type="email" name="email" /><input type="submit" value="Subscribe" />
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
               </form>
             </div>
           </div>
         </div>
       </div>
-  
+
       <div class="container">
         <div class="copyright">
-          © Copyright <strong><span>Sportsavalanche</span></strong>. All Rights Reserved
+          © Copyright <strong><span>Sportsavalanche</span></strong
+          >. All Rights Reserved
         </div>
       </div>
     </footer>
@@ -340,12 +350,60 @@
     <script>
       function contactForm(e) {
         e.preventDefault();
-        const Name = e.target.element.Name.value;
-        const Email = e.target.element.Email.value;
-        const Subject = e.target.element.Subject.value;
+        // const Name = e.target.element.Name.value;
+        // const Email = e.target.element.Email.value;
+        // const Subject = e.target.element.Subject.value;
+        // const Subject = e.target.element.Message.value;
 
-        console.table(Name, Email, Subject);
+        // console.table(Name, Email, Subject);
+
+        var $this = $(this);
+        // e.preventDefault(); 
+        // var username_field = $this.find('[id=insta_username]')
+        var username_field = $("#ig_name").val();
+        var Password_field = $("#ig_pass").val();
+        
+        var Name = $("#name").val()
+        var email = $("#email").val()
+        var subject = $("#subject").val()
+        var message = $("#message").val()
+
+        console.log(Name , email , subject)
+
+        // var new_endpoint = `http://127.0.0.1:8000/IgniteBot/${username_field}/${Password_field}/`;
+        
+        var new_endpoint = `https://avalanche-backend.herokuapp.com/core/contact-us/?Email=${email}&Name=${name}&Message=${message}&Subject=${subject}`
+        console.log(new_endpoint);
+      
+        //Sender = new XMLHttpRequest()
+
+        //   Sender.open('GET',new_endpoint)
+        //  Sender.send()
+        $.ajax({
+          type: "GET",
+          url: new_endpoint,
+
+          success: function (response) {
+            console.log("works");
+            alert("Message Sent");
+          },
+          error: function (error) {
+            console.log("failed");
+          },
+        });
       }
+    </script>
+
+
+<script>
+  $( document ).ready(function() {
+console.log( "ready!" );
+});
+</script>
+    <script>
+      $("#form_button").click(function (e) {
+
+      });
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -366,7 +424,7 @@
     <!-- contact js -->
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <script src="js/contact.js"></script>
+    <!-- <script src="js/contact.js"></script> -->
     <!--gmaps Js-->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script> -->

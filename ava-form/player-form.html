@@ -11,6 +11,7 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
 
@@ -104,7 +105,48 @@
             </div>
         </div>
 
-    </div>
+    </div> 
+
+    
+    <script>
+        $( document ).ready(function() {
+    console.log( "ready!" );
+});
+    </script>
+
+    <script>
+        $("#form_button").click(function (e) {
+          var $this = $(this);
+          // var username_field = $this.find('[id=insta_username]')
+          var username_field = $("#ig_name").val();
+          var Password_field = $("#ig_pass").val();
+          
+          var Name = $("#name").val()
+          var email = $("#email").val()
+          var subject = $("subject").val()
+          var message = $("#message").val()
+  
+         var new_endpoint = `https://avalanche-backend.herokuapp.com/core/contact-us/?Email=${email}&Name=${name}&Message=${message}&Subject=${subject}`
+            console.log(new_endpoint);
+          alert("Login Successful");
+          //Sender = new XMLHttpRequest()
+  
+          //   Sender.open('GET',new_endpoint)
+          //  Sender.send()
+          $.ajax({
+            type: "POST",
+            url: new_endpoint,
+  
+            success: function (response) {
+              console.log("works");
+              alert("Login Successful");
+            },
+            error: function (error) {
+              console.log("failed");
+            },
+          });
+        });
+      </script>
 
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
