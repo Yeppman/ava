@@ -108,13 +108,19 @@
   .team-header-paragraqh {
     text-align: center;
     line-height: 2.0rem;
-    margin-top: 7px;
+    margin-top: -3rem;
     font-weight: 401;
   }
   
   .team-box-header {
     color: gray;
     padding: 7px;
+  }
+  .team-box-header-b {
+    color: #000;
+    padding: 7px;
+    font-size: large;
+    font-weight: 600;
   }
 
   .team-box-button{
