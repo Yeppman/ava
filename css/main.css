@@ -1,35 +1,35 @@
-.ava-header{
-    /* padding-top: 10rem; */
-    /* background-color: #f9faff; */
+.ava-header {
+  /* padding-top: 10rem; */
+  /* background-color: #f9faff; */
 }
 
-.ava-header-b{
-    /* margin-top: 5rem; */
-    background: #f9faff;
-    padding-top: 1rem;
+.ava-header-b {
+  /* margin-top: 5rem; */
+  background: #f9faff;
+  padding-top: 1rem;
 }
 
 .ava-header-title {
-    text-align: center;
-    /* margin-bottom: 75px; */
-  }
+  text-align: center;
+  /* margin-bottom: 75px; */
+}
 
-  .ava-heading-text{
-    padding-top: 3rem;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
-  }
-  
+.ava-heading-text {
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
 .ava-head-title h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 3rem;
   color: #222222;
   font-weight: 800;
   margin-bottom: 15px;
-  font-family: "Boing", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
-  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+  font-family: "Boing", "-apple-system, BlinkMacSystemFont", "Segoe UI",
+    "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .ava-head-title p {
@@ -49,73 +49,73 @@
 
 .ava-head-title.white p {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
-.ava-logo{
-    /* width: 50%; */
-    object-fit: contain;
-    height: 50px;
+.ava-logo {
+  /* width: 50%; */
+  object-fit: contain;
+  height: 50px;
 }
 
-.ava-btn{
-    padding: 0px 45px;
-    line-height: 50px;
-    background: #049444;
-    border: none;
-    color: #ffffff;
-    display: inline-block;
-    /* border-radius: 5px; */
-    margin: 1rem;
-    font-size: 13px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    -webkit-transition: all 300ms linear 0s;
-    -o-transition: all 300ms linear 0s;
-    transition: all 300ms linear 0s;
+.ava-btn {
+  padding: 0px 45px;
+  line-height: 50px;
+  background: #049444;
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  /* border-radius: 5px; */
+  margin: 1rem;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
 }
-.ava-nav-btn{
-    padding: 0px 45px;
-    line-height: 50px;
-    background: #049444;
-    border: none;
-    color: #ffffff;
-    display: inline-block;
-    /* border-radius: 5px; */
-    /* margin: 1rem; */
-    margin-top: 0.5rem;
-    font-size: 13px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    -webkit-transition: all 300ms linear 0s;
-    -o-transition: all 300ms linear 0s;
-    transition: all 300ms linear 0s;
+.ava-nav-btn {
+  padding: 0px 45px;
+  line-height: 50px;
+  background: #049444;
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  /* border-radius: 5px; */
+  /* margin: 1rem; */
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
 }
 
-.bio-text{
+.bio-text {
   color: black;
 }
 
-.p-text{
+.p-text {
   color: rgb(41, 40, 40);
   font-size: 0.9rem;
   font-weight: 400;
 }
 
-.int-text{
+.int-text {
   margin-bottom: 20px !important;
   font-weight: 500;
 }
 
-.color-icon-mark{
+.color-icon-mark {
   color: green;
 }
 
-.new-bg-color{
-  background-color: #f9faff !important; 
+.new-bg-color {
+  background-color: #f9faff !important;
 }
 
-.ava-header-buttons{
+.ava-header-buttons {
   padding: 1rem;
 }
 
@@ -144,36 +144,36 @@
   box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
 }
 
-.p-value-text{
+.p-value-text {
   color: rgb(43, 42, 42) !important;
-  font-size: 1.0rem !important;
+  font-size: 1rem !important;
   font-weight: 300;
 }
 
-.ava-head-paragraph{
+.ava-head-paragraph {
   color: black !important;
   font-size: 1rem !important;
   font-weight: 300;
 }
 
-.profile-icon{
+.profile-icon {
   background-color: blue;
 }
 
-.bg-footer{
+.bg-footer {
   background-color: #55acee !important;
 }
 
-.bg-footer-fb{
-  background-color: #4267B2 !important;
+.bg-footer-fb {
+  background-color: #4267b2 !important;
 }
 
-.bg-footer-in{
-  background-color:#E1306C !important;
+.bg-footer-in {
+  background-color: #e1306c !important;
 }
 
-.bg-footer-b{
-  background-color: #2867B2 !important;
+.bg-footer-b {
+  background-color: #2867b2 !important;
 }
 
 .bio_btn {
@@ -198,19 +198,19 @@
   font-family: "Open Sans", sans-serif;
   line-height: 50px;
   border-radius: 5px;
-  -webkit-box-shadow:0px 5px 5px 0px rgba(115, 73, 251, 0.12);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
   /* box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3); */
   box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
 }
 
-.bio_btn:hover{
+.bio_btn:hover {
   padding: 0px 45px;
   /* background-image: -webkit-gradient(linear, left top, right top, from(#bc2bff), color-stop(51%, #7249fb), to(#bc2bff));
   background-image: -webkit-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
   background-image: -o-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
   background-image: linear-gradient(to right, #bc2bff 0%, #7249fb 51%, #bc2bff 100%); */
   background-size: 200% auto;
-  background-color: #049444; 
+  background-color: #049444;
   border: 1px solid #049444;
   color: #ffffff !important;
   z-index: 2;
@@ -225,54 +225,52 @@
   font-family: "Open Sans", sans-serif;
   line-height: 50px;
   border-radius: 5px;
-  -webkit-box-shadow:0px 5px 5px 0px rgba(115, 73, 251, 0.12);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
   /* box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3); */
   box-shadow: 0px 5px 5px 0px rgba(115, 73, 251, 0.12);
 }
 
-.team-page-bg{
+.team-page-bg {
   background-color: #f9faff !important;
   /* background-image: url('/bgimg.png') ; */
   object-fit: contain;
   width: 100%;
+  margin-top: -4rem;
+  padding-top: 2rem;
 }
 
-.about-heading{
+.about-heading {
   font-size: 600;
   color: black !important;
   text-align: center;
 }
 
-.about-text{
+.about-text {
   font-size: 1rem;
   color: black !important;
 }
 
-
-
-@media (max-width:1140px){
-  .single-footer-widget .sub-btn{
+@media (max-width: 1140px) {
+  .single-footer-widget .sub-btn {
     position: relative;
   }
 
   /* .bg-m{
     display: none;
   } */
-
 }
 
-@media (max-width:569px){
-  .single-footer-widget .sub-btn{
+@media (max-width: 569px) {
+  .single-footer-widget .sub-btn {
     position: relative;
   }
 }
 
-@media (max-width:991px){
-  .ava-logo{
+@media (max-width: 991px) {
+  .ava-logo {
     margin: 10px;
   }
 }
 
-@media (max-width:769px){
- 
+@media (max-width: 769px) {
 }

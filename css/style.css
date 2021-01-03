@@ -1,122 +1,121 @@
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,300i,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
-
 .navbar-light .navbar-toggler {
-  border:none
+  border: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-.com-header-text{
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.com-header-text {
   font-weight: 900;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 4.7rem;
   /* color: green; */
 }
 
-.com-header-text-col{
+.com-header-text-col {
   color: green;
 }
 
-.vid-pad{
+.vid-pad {
   padding-top: 15rem;
 }
 
 .banner_area-b {
   position: relative;
   z-index: 1;
-  min-height: 400px;
+  background: #f9faff;
+  z-index: 1;
+  max-height: 350px;
+
   /* background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); */
   /* background:no-repeat; */
-background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg');
+  background-image: url("https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg");
 }
 
-.com-header-text-col-b{
+.com-header-text-col-b {
   color: rgb(38, 0, 128) !important;
 }
 
-
-.k-p-120{
+.k-p-120 {
   padding-top: 0px;
   margin-top: 0px;
 }
 
-.banner-contact{
+.banner-contact {
   font-weight: 900 !important;
 }
 
-.com-header-text-a{
+.com-header-text-a {
   color: rgb(43, 4, 133) !important;
-} 
+}
 
-.com-header-text-h{
+.com-header-text-h {
   color: #243893 !important;
   font-weight: 600;
   margin-bottom: 25px;
 }
 
-.pb_120{
-  padding-bottom: 120px
+.pb_120 {
+  padding-bottom: 120px;
 }
 
-.pt_120{
+.pt_120 {
   padding-top: 220px;
 }
 
-
-.pk_120{
+.pk_120 {
   padding-top: 220px;
 }
 
-.mid-text{
+.mid-text {
   padding-top: 10rem;
   font-size: 4rem;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
 }
 
-.mid-section{
+.mid-section {
   /* background-color: rgb(250, 249, 255); */
   color: black;
 }
 
-.mid-boxes{
-  background: #fff
+.mid-boxes {
+  background: #fff;
 }
 
-.mid-header-text{
+.mid-header-text {
   color: rgb(38, 0, 128) !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
-.com-text{
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+.com-text {
   font-size: 1rem !important;
   font-weight: 600;
   /* font-family: 'Ubuntu Condensed', sans-serif !important; */
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: rgb(214, 209, 209);
 }
 
-.banner-bottom{
+.banner-bottom {
   border-bottom: 1px solid rgb(75, 75, 90, 0.2);
 }
 
-.bg-img{
+.bg-img {
   /* background-image: url('/bgimg.png') !important; */
   /* background: no-repeat scroll center center; */
   object-fit: contain;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   /* height: 100%; */
 }
 
-.bg-img-b{
+.bg-img-b {
   /* background: no-repeat scroll center center; */
   object-fit: contain;
   width: 100%;
@@ -124,18 +123,19 @@ background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-
   height: inherit;
 }
 
-.header-button-flex{display: flex;}
-.header-button-flex-media{
+.header-button-flex {
+  display: flex;
+}
+.header-button-flex-media {
   justify-content: flex-start;
 }
 
-.sec-bg{
+.sec-bg {
   background-color: #f2f4f8;
 }
 
-@media (max-width:769px){
-
-  .img-r-a{
+@media (max-width: 769px) {
+  .img-r-a {
     display: none;
   }
 
@@ -143,62 +143,57 @@ background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-
     display: none !important;
   }
 
-  .img-r-b{
+  .img-r-b {
     padding-top: 10rem;
   }
 
-
-
-  .com-header-text{
+  .com-header-text {
     font-size: 3rem;
     text-align: center !important;
   }
 
-  .bg-img{
+  .bg-img {
     display: none;
   }
 
-  .pk_120{
+  .pk_120 {
     padding-top: 110px;
   }
 
-
-  .pt_120{
+  .pt_120 {
     padding-top: 10px;
   }
 
-  .mid-text{
+  .mid-text {
     padding-top: 0px;
     font-size: 3rem;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     padding: 1rem !important;
   }
 
-  .k-p-120{
+  .k-p-120 {
     padding-top: 0px;
   }
 
-  .testimony{
+  .testimony {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
 
-  
-  .programs{
+  .programs {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
 
-  .vid-pad{
+  .vid-pad {
     padding-top: 0rem;
   }
 
-  .header-button-flex-media{
-  justify-content: center;
-}
-
+  .header-button-flex-media {
+    justify-content: center;
+  }
 }
 
 .list {
@@ -214,7 +209,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -223,16 +219,15 @@ a:hover, a:focus {
   margin: 0px;
 }
 
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
 
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .slide-box{
-    /* height: 300px; */
-  }
+.slide-box {
+  /* height: 300px; */
+}
 
 body {
   line-height: 24px;
@@ -242,7 +237,12 @@ body {
   color: #777777;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -297,13 +297,13 @@ button:focus {
   color: #222222;
   font-weight: 800;
   margin-bottom: 15px;
-  font-family: "Boing", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
-  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+  font-family: "Boing", "-apple-system, BlinkMacSystemFont", "Segoe UI",
+    "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .main_title p {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
   color: #777777;
@@ -319,7 +319,7 @@ button:focus {
 
 .main_title.white p {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 /* End Main Title Area css
@@ -492,7 +492,8 @@ button:focus {
   transition: background 500ms ease, -webkit-transform 500ms ease;
   -o-transition: transform 500ms ease, background 500ms ease;
   transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
+  transition: transform 500ms ease, background 500ms ease,
+    -webkit-transform 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   /* -webkit-box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); */
@@ -547,14 +548,14 @@ button:focus {
   /* background: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat scroll center center; */
   /* background-size: cover; */
   /* background: -webkit-linear-gradient( */
-      /* 45deg, */
-      /* rgba(171, 203, 211, 0.7),
+  /* 45deg, */
+  /* rgba(171, 203, 211, 0.7),
       rgba(186, 168, 199, 0.7) */
-      /* rgba(66, 211, 85, 0.2),
+  /* rgba(66, 211, 85, 0.2),
       rgba(66, 211, 85, 0.2) */
-      /* 152, 66, 211 */
-    /* ), */
-    /* url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+  /* 152, 66, 211 */
+  /* ), */
+  /* url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
       50% no-repeat;
         background-repeat: no-repeat;
   background-size: cover */
@@ -616,7 +617,7 @@ button:focus {
 
 .blog_banner .banner_inner .overlay {
   background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
-  opacity: .5;
+  opacity: 0.5;
   height: 125%;
   position: absolute;
   left: 0px;
@@ -658,14 +659,16 @@ button:focus {
 .banner_area {
   position: relative;
   z-index: 1;
-  min-height: 400px;
+  background: #f9faff;
+  z-index: 1;
+  max-height: 350px;
   background-repeat: no-repeat;
- background-size: 100%;
- background-position: center;
+  background-size: 100%;
+  background-position: center;
   /* background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%); */
-  background-image: url('https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg');
+  background-image: url("https://image.freepik.com/free-photo/green-grass-tribune-with-blurred-lights_9083-4046.jpg");
   background-repeat: no-repeat;
 }
 
@@ -676,7 +679,6 @@ button:focus {
   min-height: 400px;
   z-index: 1;
 }
-
 
 .banner_area-b .banner_inner {
   position: relative;
@@ -734,7 +736,7 @@ button:focus {
 ============================================================================================ */
 .l_news_item {
   background: #fff;
-  
+
   padding: 60px 30px;
   border-radius: 5px;
   -webkit-transition: all 300ms linear 0s;
@@ -1034,9 +1036,21 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
   background-color: transparent;
 }
 
@@ -1164,11 +1178,17 @@ button:focus {
   color: #fff;
 }
 
-.blog_right_sidebar .search_widget .input-group .form-control::-moz-placeholder {
+.blog_right_sidebar
+  .search_widget
+  .input-group
+  .form-control::-moz-placeholder {
   color: #fff;
 }
 
-.blog_right_sidebar .search_widget .input-group .form-control::-webkit-input-placeholder {
+.blog_right_sidebar
+  .search_widget
+  .input-group
+  .form-control::-webkit-input-placeholder {
   color: #fff;
 }
 
@@ -1337,7 +1357,9 @@ button:focus {
   color: #cccccc;
 }
 
-.blog_right_sidebar .newsletter_widget .form-control::-webkit-input-placeholder {
+.blog_right_sidebar
+  .newsletter_widget
+  .form-control::-webkit-input-placeholder {
   color: #cccccc;
 }
 
@@ -1382,9 +1404,21 @@ button:focus {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
   color: #fff;
 }
 
@@ -1546,7 +1580,7 @@ button:focus {
 }
 
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -1583,7 +1617,7 @@ button:focus {
 }
 
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -1862,7 +1896,7 @@ button:focus {
 
 .reservation_form .form-group .res_select:after {
   content: "\e874";
-  font-family: 'Linearicons-Free';
+  font-family: "Linearicons-Free";
   color: #cccccc;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -2359,7 +2393,11 @@ button:focus {
   }
 }
 
-b, sup, sub, u, del {
+b,
+sup,
+sub,
+u,
+del {
   color: #f8b600;
 }
 
@@ -2387,7 +2425,12 @@ h6 {
   font-size: 14px;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: #777777;
 }
 
@@ -2414,7 +2457,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -2684,7 +2727,10 @@ h6 {
   display: flex;
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
   color: #222222;
   line-height: 40px;
   text-transform: uppercase;
@@ -2699,7 +2745,10 @@ h6 {
   display: flex;
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2768,7 +2817,7 @@ h6 {
 }
 
 .single-gallery-image:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .list-style {
@@ -3163,7 +3212,8 @@ h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3201,7 +3251,8 @@ h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3244,7 +3295,8 @@ h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3282,7 +3334,8 @@ h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3320,7 +3373,8 @@ h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3374,7 +3428,8 @@ h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3564,7 +3619,7 @@ h6 {
 .submit_btn {
   width: auto;
   display: inline-block;
-background-color: #049444;
+  background-color: #049444;
   background-size: 200% auto;
   padding: 0px 50px;
   color: #fff;
@@ -3728,9 +3783,9 @@ background-color: #049444;
 
 .interior_inner .interior_text h4 {
   color: #222222;
-  font-family: "Boing", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
-  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+  font-family: "Boing", "-apple-system, BlinkMacSystemFont", "Segoe UI",
+    "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 800;
   line-height: 45px;
   font-size: 36px;
@@ -3747,7 +3802,6 @@ background-color: #049444;
 ============================================================================================ */
 .download_app_area {
   background-image: -webkit-linear-gradient(0deg, #009245 0%, #009245 100%);
-
 }
 
 .app_inner {
@@ -3789,7 +3843,13 @@ background-color: #049444;
 
 .app_btn_area .app_btn:hover .media .d-flex i {
   background: -webkit-linear-gradient(left, #bb2bff, #7349fb);
-  background: -webkit-gradient(linear, left top, right top, from(#bb2bff), to(#7349fb));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#bb2bff),
+    to(#7349fb)
+  );
   background: -o-linear-gradient(left, #bb2bff, #7349fb);
   background: linear-gradient(left, #bb2bff, #7349fb);
   -webkit-background-clip: text;
@@ -3981,7 +4041,8 @@ background-color: #049444;
   position: relative;
 }
 
-.testimonials_area .owl-prev, .testimonials_area .owl-next {
+.testimonials_area .owl-prev,
+.testimonials_area .owl-next {
   position: absolute;
   right: 150px;
   background: #fff;
@@ -3997,7 +4058,8 @@ background-color: #049444;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
 }
 
-.testimonials_area .owl-prev:hover, .testimonials_area .owl-next:hover {
+.testimonials_area .owl-prev:hover,
+.testimonials_area .owl-next:hover {
   color: #222222;
 }
 
@@ -4216,7 +4278,7 @@ background-color: #049444;
 
 .news_widgets p {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .footer_title {
@@ -4242,7 +4304,7 @@ background-color: #049444;
 
 .footer-bottom .footer-text {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .footer-bottom .footer-text i {
@@ -4279,11 +4341,22 @@ background-color: #049444;
 
 .footer-bottom .footer-social a:hover {
   color: #fff;
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgba(188, 43, 255, 0.8) 0%,
+    rgba(114, 73, 251, 0.8) 100%
+  );
 }
-
 
 /*---------------------------------------------------- */
 
