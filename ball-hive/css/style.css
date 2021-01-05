@@ -3713,6 +3713,11 @@ h6 {
   padding-top: 65px;
   padding-bottom: 65px;
 }
+.interior_area-small {
+  /* background: #f9faff; */
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 
 .interior_area.interior_two {
   background: #fff;

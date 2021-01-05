@@ -121,7 +121,7 @@
           data-mlat="6.527011713626619"
           data-mlon="3.3966193277195806"
         ></div> -->
-        <div class="row">
+        <div class="row-2">
           <div class="col-lg-3">
             <div class="contact_info">
               <div class="info_item">
@@ -216,7 +216,7 @@
                   1 Obadiah Street <br />
                   <!-- Revenue House, 20 Sokode Crescent, Wuse Zone 5,<br /> -->
                   Lagos, Nigeria<br /><br />
-                  <strong>Phone:</strong> +2348107576567 +2348107576567<br />
+                  <strong>Phone:</strong> +2349063824036 +2348107576567<br />
                   <strong>Email:</strong> info@sportsavalanche.com
 
                   <br />
@@ -368,11 +368,11 @@
         var subject = $("#subject").val()
         var message = $("#message").val()
 
-        console.log(Name , email , subject)
+        console.log(Name , email , subject ,message)
+          // const host = `http://127.0.0.1:5000`  
+       const host =  'https://avalanche-node.herokuapp.com'   
 
-        // var new_endpoint = `http://127.0.0.1:8000/IgniteBot/${username_field}/${Password_field}/`;
-        
-        var new_endpoint = `https://avalanche-backend.herokuapp.com/core/contact-us/?Email=${email}&Name=${name}&Message=${message}&Subject=${subject}`
+       var new_endpoint = host + `/core/contact-us/?email=${email}&name=${name}&message=${message}&subject=${subject}`
         console.log(new_endpoint);
       
         //Sender = new XMLHttpRequest()
