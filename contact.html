@@ -368,11 +368,11 @@
         var subject = $("#subject").val()
         var message = $("#message").val()
 
-        console.log(Name , email , subject)
+        console.log(Name , email , subject ,message)
+          // const host = `http://127.0.0.1:5000`  
+       const host =  'https://avalanche-node.herokuapp.com'   
 
-        // var new_endpoint = `http://127.0.0.1:8000/IgniteBot/${username_field}/${Password_field}/`;
-        
-        var new_endpoint = `https://avalanche-backend.herokuapp.com/core/contact-us/?Email=${email}&Name=${name}&Message=${message}&Subject=${subject}`
+       var new_endpoint = host + `/core/contact-us/?email=${email}&name=${name}&message=${message}&subject=${subject}`
         console.log(new_endpoint);
       
         //Sender = new XMLHttpRequest()
