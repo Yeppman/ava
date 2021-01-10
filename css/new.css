@@ -128,7 +128,7 @@
 }
 
 .new-banner-a {
-  background-image: url(/img/player.png); 
+  background-image: url('/img/banner/sportsHand.jpg'); 
   background-repeat: no-repeat;
   background-size: cover; 
   background-color: #e9f0ec; 
