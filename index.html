@@ -68,11 +68,11 @@
 
               <li class="nav-item">
                 <a class="nav-link" href="/contact.html">Contact</a>
-              </li>
+              </li> 
 
               <li class="nav-item">
-                <a href="/player-form.html">
-                  <button class="ava-nav-btn">Get Scouted</button>
+                <a href="http://www.theballhive.com">
+                  <button class="ava-nav-btn">Sign Up</button>
                 </a>
               </li>
             </ul>
@@ -854,10 +854,11 @@
 
           success: function (response) {
             console.log("works");
-            alert("Message Sent");
+            // alert("Message Sent");
           },
           error: function (error) {
-            alert("Subscribition Success");
+            // alert("Subscribition Success");
+            window.location.replace('./successPage.html')
             console.log("failed");
           },
         });
