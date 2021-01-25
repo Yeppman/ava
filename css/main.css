@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+body {
+  font-family: 'Varela Round';
+}
 .ava-header {
   /* padding-top: 10rem; */
   /* background-color: #f9faff; */
@@ -100,6 +104,7 @@
   color: rgb(41, 40, 40);
   font-size: 0.9rem;
   font-weight: 400;
+  font-family: 'Varela Round';
 }
 
 .int-text {

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+* {
+  font-family: 'Varela Round';
+}
 .team-container-fit {
     display: flex;
     flex-direction: column;
@@ -116,11 +120,22 @@
     color: gray;
     padding: 7px;
   }
+
   .team-box-header-b {
     color: #000;
     padding: 7px;
     font-size: large;
     font-weight: 600;
+    font-family: 'Varela Round';
+    margin-top: 10px;
+  }
+  .team-box-header-f {
+    color: #000;
+    padding: 7px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Varela Round';
+    margin-top: -10px;
   }
 
   .team-box-button{
@@ -147,7 +162,7 @@
   .startUpTeam-image {
     height: inherit;
     object-fit: contain;
-    border-radius: 14px;
+    border-radius: 50%;
   }
 
 .bio-text-heading{
@@ -175,4 +190,9 @@
 .bio-margin{
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+
+i {
+  color: rgb(9, 9, 109);
+  font-size: larger;
 }
