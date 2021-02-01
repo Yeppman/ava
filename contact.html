@@ -153,7 +153,7 @@
                     type="text"
                     class="form-control"
                     id="name"
-                    name="Name"
+                    name="name"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -371,7 +371,7 @@
           // const host = `http://127.0.0.1:5000`  
        const host =  'https://avalanche-node.herokuapp.com'   
 
-       var new_endpoint = host + `/core/contact-us/?email=${email}&name=${name}&message=${message}&subject=${subject}`
+       var new_endpoint = host + `/core/contact-us/?email=${email}&name=${Name}&message=${message}&subject=${subject}`
         console.log(new_endpoint);
       
         //Sender = new XMLHttpRequest()
